@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100&display=swap');
+
+body{
+    background: url(./images/orang-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    text-align: center;    
+}
+
+.hero{
+    width: 60%;
+    height: 500PX;
+    background-color: white;
+    margin: 100px auto 80px;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+        
+}
+
+.player1{
+width: 50%;
+background-color: rgba(230, 222, 222, 0.589);
+}
+.player-heading{
+    font-size: 42px;
+    margin-top: 100px;
+    color: rgb(199, 188, 188);
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#p1heading{
+    color: black;
+}
+    
+.player2{
+width: 50%;
+}
+
+
+#player1-globscore{
+    margin: 0px;
+    font-size: 60px;
+    color: rgb(199, 21, 51);
+    
+    
+}
+#player2-globscore{
+    margin: 0px;
+    font-size: 60px;
+    color:  rgb(199, 21, 51);
+}
+
+.player-score-area{
+    width: 30%;
+    background-color:  rgb(160, 43, 62);
+    height: 80px;
+    font-weight: bold;
+    margin: 0px auto;
+    margin-top: 80px;
+    padding-top: 2px;
+    border: 1px solid black;
+}
+
+.player-score-area p{
+    margin-bottom: 0px;
+}
+
+.player-score-area h3{
+    margin-top: 5px;
+    font-size: 25px;
+    color: white    ;
+}
+
+button{
+    font-family:'Montserrat', sans-serif ;
+    font-weight: bold;
+    
+}
+
+.middle-content button{
+    border-style: none;
+    font-size: 20px;
+    background:none;
+    color: rgb(199, 188, 188) ;
+}
+
+#new-game-btn{
+    position: absolute;
+    left: 388px;
+    top: 40px;
+}
+
+#rolldice-btn{
+    position: absolute;
+    left: 388px;
+    top: 320px;
+    
+}
+
+#hold-btn{
+    position: absolute;
+    left: 415px;
+    top: 365px;  
+}
+
+.indicatorp1{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(160, 43, 62) ;
+    border-radius: 50%;
+    left:340px;
+    top: 120px;
+}
+
+.indicatorp2{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(160, 43, 62)  ;
+    border-radius: 50%;
+    left:800px;
+    top: 120px;
+}
+i{
+    color: #EB4D4D;
+    
+}
+img{
+    position: absolute;
+    left:46%;
+    top: 180px;
+    width: 60px;
+    border: 1px solid black;
+    
+}
